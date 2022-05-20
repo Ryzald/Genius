@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.bg {
+  z-index: -10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  position: center;
+  size: cover;
+}
+.txt-kiri {
+  margin-left: 20px;
+  position: fixed;
+  z-index: -1;
+  width: 6%;
+  left: 35px;
+}
+.logo-genius {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  z-index: -1;
+  width: 15%;
+}
+body .container {
+  /* background-color: #a9d2d5; */
+  border-radius: 10px;
+  /* border-top: 5px solid#446d70; */
+  /* color: #446d70; */
+}
+.formm {
+  position: relative;
+}
+input {
+  /* border: 3px solid #446d70; */
+  border-radius: 8px;
+  background-color: transparent;
+  position: relative;
+  padding: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+label {
+  position: absolute;
+  left: 20px;
+  transform: translateY(-50%);
+}
+label span {
+  /* background-color: #a9d2d5; */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.judul-funtasy {
+  color: #a9d2d5;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+.judul-prewed {
+  color: #9a5163;
+}
+.border-funtasy {
+  border: 3px solid #446d70;
+}
+.border-prewed {
+  border: 3px solid #9a5163;
+}
+.bg-wr-funtasy {
+  background-color: #a9d2d5;
+}
+.bg-wr-prewed {
+  background-color: #daa7b4;
+}
+.bg-funtasy-dark {
+  background-color: #446d70;
+}
+.bg-prewed-dark {
+  background-color: #9a5163;
+}
+.cl-funtasy {
+  color: #446d70;
+}
+.cl-prewed {
+  color: #9a5163;
+}
+.bt-funtasy {
+  border-top: 5px solid#446d70;
+}
+.bt-prewed {
+  border-top: 5px solid#9a5163;
+}
+.success {
+  box-shadow: 5px 5px black;
+  text-shadow: 2px 2px 4px #000000;
+}
+.p2s {
+  position: absolute;
+  bottom: 0px;
+}
